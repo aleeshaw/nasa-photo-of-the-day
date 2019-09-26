@@ -1,13 +1,15 @@
 import React from "react";
+import CardContainer from "./components/CardContainer.js";
 import "./App.css";
+
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <h1 className="title">Astronomy Photo of The Day</h1>
+      <CardContainer />
+
+      <footer className="footer">Aleesha Wood 2019</footer>
     </div>
   );
 }
