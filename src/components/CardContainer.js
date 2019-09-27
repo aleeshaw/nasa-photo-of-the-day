@@ -14,11 +14,12 @@ const CardContainer = () => {
       .catch((error) => {
         console.log(error);
       });
-  });
+  }, []);
 
   return (
-    <h1>test</h1>
-    //this is where Imgcard will go with things bits from thing.
+    <div>
+      <ImgCard title={imgs.title} info={imgs.explanation} url={imgs.url} />
+    </div>
   )
 }
 
