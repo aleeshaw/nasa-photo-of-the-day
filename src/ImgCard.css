@@ -1,0 +1,26 @@
+.info-card {
+  display: flex;
+  margin: 70px 10%;
+}
+
+.card-img {
+  width: 50%;
+  height: 100%;
+}
+
+.text-info {
+  margin-left: 70px;
+  margin-top: -20px;
+  width: 50%;
+}
+
+.title-date {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info {
+  text-align: justify;
+}
