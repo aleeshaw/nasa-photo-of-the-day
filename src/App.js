@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <h1 className="title">Astronomy Photo of The Day</h1>
       <CardContainer />
-
       <footer className="footer">Aleesha Wood 2019</footer>
     </div>
   );
