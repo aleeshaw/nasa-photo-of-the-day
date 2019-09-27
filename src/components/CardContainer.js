@@ -18,7 +18,7 @@ const CardContainer = () => {
 
   return (
     <div>
-      <ImgCard title={imgs.title} info={imgs.explanation} url={imgs.url} />
+      <ImgCard title={imgs.title} info={imgs.explanation} url={imgs.url} date={imgs.date}/>
     </div>
   )
 }
