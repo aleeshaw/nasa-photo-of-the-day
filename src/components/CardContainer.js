@@ -11,17 +11,19 @@ const CardContainer = () => {
   useEffect(() => {
     //let date = `2001-09-11`;
     //const nasaApi = ;
-
+    const getDate = (pageDate) =>
     axios.get(`https://api.nasa.gov/planetary/apod?api_key=8TfX3KPlNNfY3lFLJDBeTY3QljSKgT7VqVJJNxif&date=${pageDate}`)
       .then((results) => {
         setImgs(results.data);
         console.log(results);
         console.log(date);
+        //console.log(today);
       })
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+      getDate(pageDate);
+  }, [pageDate, date]);
 
   return (
     <div>
