@@ -5,13 +5,14 @@ import Button from "./components/Button.js";
 
 
 function App() {
+
   return (
     <div className="App">
       <h1 className="title">Astronomy Photo of The Day</h1>
       <CardContainer />
       <div className="button-container">
-        <Button buttonVal={"\u2190"} alt="previous"/>
-        <Button buttonVal={"\u2192"} alt="next"/>
+        <Button buttonVal={"\u2190"} aria-label="previous"/>
+        <Button buttonVal={"\u2192"} aria-label="next"/>
       </div>
       <footer className="footer">Aleesha Wood 2019</footer>
     </div>
